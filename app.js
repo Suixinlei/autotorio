@@ -4,7 +4,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 
 
-const PORT = process.env.NODE_ENV != 'production' ? 5000 : 80;
+const PORT = 5000;
 
 const app = new express();
 
